@@ -1,0 +1,8 @@
+<% if current_user %>
+  こんにちは <%=current_user.name%> さん
+<% else %>
+  <%= link_to 'Sign in with Twitter', '/auth/twitter' %>
+<% end %>
+
+
+
