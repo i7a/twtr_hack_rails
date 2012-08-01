@@ -1,0 +1,4 @@
+#twtr_hack のRailsデモで使用したデモアプリです。
+config/initializers/omniauth.rb 内のconsumer key / secret は変更してあるので
+動きを見たい場合はそこを適切に更新してあげてください。
+
